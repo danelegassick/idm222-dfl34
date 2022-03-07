@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,11 +22,13 @@
                 </ul>
 
                 <ul class="topBlock-nav-list">
-            
+                    
+                    <li><a href="#portfolio-anchor" class="link-style">PORTFOLIO</a></li>
+
                     <li><a href="docs/about.html" class="link-style">ABOUT</a></li>
-            
-                    <li><a href="docs/contact.html" class="link-style">CONTACT</a></li>
-            
+
+                    <li><a href="#contact-anchor" class="link-style">CONTACT</a></li>
+
                 </ul>
 
             </nav>
@@ -33,40 +36,165 @@
             <div class="topBlock-text">
 
                 <p class="topBlock-intro">
-                    Hi there, my name is <span class="topBlock-emphasis">Dane</span>! I am a UI/UX designer based in Philadelphia. I make digital products (UI), and make them easier to use (UX). See more about me, my portfolio, and my inspirations throughout the site.
+                    Hi there, my name is <span class="topBlock-emphasis">Dane</span>! I am a UI/UX designer based in
+                    Philadelphia. 
+                </p>
+
+                <p class="topBlock-intro-subtext">
+                    I make digital products (UI), and make them easier to use (UX). See more about me, my portfolio, and my inspirations throughout the site.
                 </p>
 
                 <p class="topBlock-direct">
-                    View my work below! 
+                    View my work below!
                 </p>
-                
+
                 <!-- arrow pointing down -->
 
             </div>
 
         </div>
 
-        <div class="project">
+        <div id="portfolio-anchor" class="project">
 
             <div class="project-section">
-                <a href="./docs/docs-project/elevate.html"><img class="project-cover" src="./graphics/elevate-cover.jpg" alt="cover"></a>
+                <a href="./docs/docs-project/elevate.html">
+                    
+                    <img class="project-cover" src="./graphics/elevate-cover.jpg"
+                        alt="elevate-cover">
+
+                    <div class="middle">
+                        <h1 class="middle-text">Elevate</h1>
+                    </div>
+
+                </a>
             </div>
 
             <div class="project-section">
-                <a href="./docs/docs-project/wire.html"><img class="project-cover" src="./graphics/wire-cover.jpg" alt="cover"></a>
+                <a href="./docs/docs-project/wire.html">
+                    
+                    <img class="project-cover" src="./graphics/wire-cover.jpg"
+                        alt="wire-redesign-cover">
+
+                    <div class="middle">
+                        <h1 class="middle-text">Wire Redesign</h1>
+                    </div>
+                    
+                </a>
             </div>
 
             <div class="project-section">
-                <a href="./docs/docs-project/libgen.html"><img class="project-cover" src="./graphics/libgen-mockup-final.gif" alt="cover"></a>
+                <a href="./docs/docs-project/libgen.html">
+                    
+                    <img class="project-cover" src="./graphics/libgen-cover.jpg"
+                        alt="library-genesis-cover">
+
+                    <div class="middle">
+                        <h1 class="middle-text">Library Genesis Redesign</h1>
+                    </div>
+                    
+                </a>
             </div>
 
             <div class="project-section">
-                <a href="./docs/docs-project/freshlock.html"><img class="project-cover" src="./graphics/freshlock-cover.jpg" alt="cover"></a>
+                <a href="./docs/docs-project/freshlock.html">
+                    
+                    <img class="project-cover"
+                        src="./graphics/freshlock-cover.jpg" alt="freshlock-cover">
+                    
+                    <div class="middle">
+                        <h1 class="middle-text">FreshLock</h1>
+                    </div>
+                    
+                </a>
+            </div>
+
+            <div class="project-section">
+                <a href="./docs/docs-project/pipeline.html">
+                    
+                    <img class="project-cover"
+                        src="./graphics/pipeline-cover.jpg" alt="pipeline-cover">
+                    
+                    <div class="middle">
+                        <h1 class="middle-text">Pipeline</h1>
+                    </div>
+
+                </a>
+            </div>
+
+            <div class="project-section">
+                <a href="./docs/docs-project/art.html">
+                    
+                    <img class="project-cover" src="./graphics/3d-cover.jpg"
+                        alt="3d-art-cover">
+                                        
+                    <div class="middle">
+                        <h1 class="middle-text">3D Artwork</h1>
+                    </div>
+
+                </a>
             </div>
 
         </div>
 
     </main>
+
+    <footer>
+
+        <div id="contact-anchor" class="contact-section purple-bk">
+
+            <div class="contact-section-content">
+
+                <h3>CONTACT ME!</h3>
+
+                <!--WORKING FORM SET UP NO PHP, FORM DATA SENT TO MY EMAIl (if you are reading this send me a message i'll hit you back)-->
+
+                <form action="https://formspree.io/f/xdoboobl" method="POST">
+
+                    <div class="contact-section-content-grid">
+
+                        <label>
+
+                            <input class="input-type" type="name" placeholder="Name">
+
+                        </label>
+
+                        <label>
+
+                            <input class="input-type" type="email" name="_replyto" placeholder="Email">
+
+                        </label>
+
+                        <label>
+
+                            <input class="input-type" type="phone" placeholder="Phone">
+
+                        </label>
+
+                        <label>
+
+                            <input class="input-type" type="subject" placeholder="Subject">
+
+                        </label>
+
+                    </div>
+
+                    <label>
+
+                        <input class="input-type" name="message" placeholder="Message">
+
+                    </label>
+
+                    <br>
+
+                    <button type="submit" class="btn-submit"><h4>Submit</h4></button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </footer>
 
 </body>
 
