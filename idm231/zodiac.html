@@ -6,15 +6,249 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zodiac Project</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="/css/zodiac.css">
 </head>
 
 <body class="zodiac">
-    <header>
 
-    </header>
+    <section class="top-half-zodiac">
 
-    <main>
+        <div class="top-half-text">
+            
+            <h1 class="what-character">what mario character are you?</h1>
+        
+        </div>
+
+        <div class="results">
+
+            <img src="" id="image">
+
+            <h1 class="result-header" id="char"></h1>
+
+            <!-- <p class="result-text" id="hi"></p> -->
+
+            <p class="result-text" id="text"></p>
+
+        </div>
+
+        <div class="top-half-inputs">
+
+            <div class="birthday-form">
+    
+                <div class="userInfo">
+
+                    <h2 class="input-label">name:</h2>
+    
+                    <p><input type="text" id="name" placeholder="First Name"></p>
+
+                    <h2 class="input-label">birthday:</h2>
+    
+                    <p><input type="date" id="bday"></p>
+    
+                    <p><button id="userSubmit">Submit</button></p>
+    
+                </div>
+            
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="bottom-half-zodiac">
+
+    <div class="horizontal-scroll">
+
+        <div class="card mario-bg">
+
+            <h3 class="card-title">Mario</h3>
+
+            <button class="btn" id="mario-btn">Learn more!</button>
+
+        </div>
+
+        <div class="card luigi-bg">
+
+            <h3 class="card-title">Luigi</h3>
+
+            <button class="btn" id="luigi-btn">Learn more!</button>
+
+        </div>
+
+        <div class="card wario-bg">
+
+            <h3 class="card-title">Wario</h3>
+
+            <button class="btn" id="wario-btn">Learn more!</button>
+
+        </div>
+
+        <div class="card peach-bg">
+
+            <h3 class="card-title">Peach</h3>
+
+            <button class="btn" id="peach-btn">Learn more!</button>
+
+        </div>
+
+        <div class="card waluigi-bg">
+
+            <h3 class="card-title">Waluigi</h3>
+
+            <button class="btn" id="waluigi-btn">Learn more!</button>
+
+        </div>
+
+        <div class="card goomba-bg">
+
+            <h3 class="card-title">Goomba</h3>
+
+            <button class="btn" id="goomba-btn">Learn more!</button>
+
+        </div>
+
+        <div class="card yoshi-bg">
+
+            <h3 class="card-title">Yoshi</h3>
+
+            <button class="btn" id="yoshi-btn">Learn more!</button>
+
+        </div>
+
+        <div class="card dk-bg">
+
+            <h3 class="card-title">Donkey Kong</h3>
+
+            <button class="btn" id="dk-btn">Learn more!</button>
+
+        </div>
+
+        <div class="card toad-bg">
+
+            <h3 class="card-title">Toad</h3>
+
+            <button class="btn" id="toad-btn">Learn more!</button>
+
+        </div>
+
+        <div class="card rosalina-bg">
+
+            <h3 class="card-title">Rosalina</h3>
+
+            <button class="btn" id="rosalina-btn">Learn more!</button>
+
+        </div>
+
+        <div class="card daisy-bg">
+
+            <h3 class="card-title">Daisy</h3>
+
+            <button class="btn" id="daisy-btn">Learn more!</button>
+
+        </div>
+
+        <div class="card bowser-bg">
+
+            <h3 class="card-title">Bowser</h3>
+
+            <button type="button" class="btn" id="bowser-btn">Learn more!</button>
+
+        </div>
+
+    </div>
+
+    </section>
+
+    <div class="pop-up hidden" id="pop">
+
+        <h2 id="info-header"></h2>
+
+        <p id="info"></p>
+
+    </div>
+
+    <!-- <div class="pop-up hidden" id="luigi-pop">
+
+        <h2>Luigi</h2>
+
+        <p>
+            Luigi loves for things to be calm and balanced, but his mansion wrecks havoc on his life. He is shy and often pushed to the side for characters like Mario to get attention. His abilities include vacuuming ghosts.
+        </p>
+        
+    </div>
+
+    <div class="pop-up hidden" id="wario-pop">
+
+        <h2>Wario</h2>
+
+        <p>
+            Wario is a greedy, greedy man. I heard he once took candy from a baby, and sold it back for a profit. Wario's motivated by money, like most people. His abilities include smelling bad.
+        </p>
+        
+    </div>
+
+    <div class="pop-up hidden" id="peach-pop">
+        
+        <h2>Peach</h2>
+
+        <p>
+            Peach has come to be known as a damsel in distress, but she is so much more. She is kind, athletic, and of course royalty. She even saves Mario in a few games of her own. Her abilities include using an umbrella.
+        </p>
+
+    </div>
+
+    <div class="pop-up hidden" id="waluigi-pop">
+
+        <h2>Waluigi</h2>
+
+        <p>
+            Waluigi loves to prank people. A fan favorite amongst the crowd, but often left out of games. He's known to be a real wild card, from everything from racing to tennis. His abilities include more than we could ever know.
+        </p>
+        
+    </div>
+
+    <div class="pop-up hidden" id="goomba-pop">
+
+        <h2>Goomba</h2>
+
+        <p>
+            Goomba is loved by all. Who could hate him? Goomba's love to hang out with each other and can often be found stacking on top of each other to fight against Mario's crew. Goomba has been known to work for Bowser, but switches sides depending on how he is feeling. His abilities include being a glass canon.
+        </p>
+        
+    </div>
+
+    <div class="pop-up hidden" id="yoshi-pop">
+
+        <h2>Yoshi</h2>
+
+        <p>
+            Yoshi has been known to be a fun and cooperative character! He is always willing to help others. He is known to steal food from the other characters when they aren't looking. His abilities include being able to run on air.
+        </p>
+        
+    </div>
+
+    <div class="pop-up hidden" id="dk-pop">
+        
+    </div>
+
+    <div class="pop-up hidden" id="toad-pop">
+        
+    </div>
+
+    <div class="pop-up hidden" id="rosalina-pop">
+        
+    </div>
+
+    <div class="pop-up hidden" id="daisy-pop">
+        
+    </div>
+
+    <div class="pop-up hidden" id="bowser-pop">
+        
+    </div> -->
+
+
+    <!-- <main>
 
         <div class="birthday-form">
 
@@ -105,7 +339,7 @@
         </div>
 
 
-    </main>
+    </main> -->
 
     <script src="./zodiac.js"></script>
 
