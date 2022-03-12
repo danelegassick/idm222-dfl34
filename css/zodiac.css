@@ -73,7 +73,6 @@ input[type=date] {
   border-radius: 8px;
   cursor: pointer;
   user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
 }
 
@@ -99,7 +98,7 @@ input[type=date] {
 }
 
 .result-text {
-    font-size: 1.5;
+    font-size: 1.5rem;
     line-height: 1.5;
     color: var(--dark);
     max-width: 400px;
@@ -324,7 +323,6 @@ input[type=date] {
     border-radius: 8px;
     cursor: pointer;
     user-select: none;
-    -webkit-user-select: none;
     touch-action: manipulation;
   }
   
