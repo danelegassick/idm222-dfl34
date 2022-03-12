@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zodiac Project</title>
-    <link rel="stylesheet" href="/css/zodiac.css">
+    <link rel="stylesheet" href="../css/zodiac.css">
 </head>
 
 <body class="zodiac">
@@ -14,41 +14,55 @@
     <section class="top-half-zodiac">
 
         <div class="top-half-text">
-            
+
             <h1 class="what-character">what mario character are you?</h1>
-        
+
         </div>
 
         <div class="results">
 
-            <img src="" id="image">
+            <div>
 
-            <h1 class="result-header" id="char"></h1>
+                <img src="" id="image" class="result-img">
 
-            <!-- <p class="result-text" id="hi"></p> -->
+            </div>
 
-            <p class="result-text" id="text"></p>
+            <div>
+
+                <h1 class="result-header" id="char"></h1>
+
+                <!-- <p class="result-text" id="hi"></p> -->
+
+                <p class="result-text" id="text"></p>
+
+                <audio id="audio" src=""></audio>
+
+            </div>
 
         </div>
 
         <div class="top-half-inputs">
 
             <div class="birthday-form">
-    
+
                 <div class="userInfo">
 
                     <h2 class="input-label">name:</h2>
-    
+
                     <p><input type="text" id="name" placeholder="First Name"></p>
 
+                    <div class="line"></div>
+
                     <h2 class="input-label">birthday:</h2>
-    
+
                     <p><input type="date" id="bday"></p>
-    
-                    <p><button id="userSubmit">Submit</button></p>
-    
+
+                    <div class="line"></div>
+
+                    <p><button id="userSubmit" class="btn">Find Out!</button></p>
+
                 </div>
-            
+
             </div>
 
         </div>
@@ -57,289 +71,406 @@
 
     <section class="bottom-half-zodiac">
 
-    <div class="horizontal-scroll">
+        <div class="horizontal-scroll">
 
-        <div class="card mario-bg">
+            <div class="card mario-bg">
 
-            <h3 class="card-title">Mario</h3>
+                <h3 class="card-title">Mario</h3>
 
-            <button class="btn" id="mario-btn">Learn more!</button>
+                <button class="btn up mario-btn">Learn more!</button>
+
+            </div>
+
+            <div class="card luigi-bg">
+
+                <h3 class="card-title">Luigi</h3>
+
+                <button class="btn up luigi-btn">Learn more!</button>
+
+            </div>
+
+            <div class="card wario-bg">
+
+                <h3 class="card-title">Wario</h3>
+
+                <button class="btn up wario-btn">Learn more!</button>
+
+            </div>
+
+            <div class="card peach-bg">
+
+                <h3 class="card-title">Peach</h3>
+
+                <button class="btn up peach-btn">Learn more!</button>
+
+            </div>
+
+            <div class="card waluigi-bg">
+
+                <h3 class="card-title">Waluigi</h3>
+
+                <button class="btn up waluigi-btn">Learn more!</button>
+
+            </div>
+
+            <div class="card goomba-bg">
+
+                <h3 class="card-title">Goomba</h3>
+
+                <button class="btn up goomba-btn">Learn more!</button>
+
+            </div>
+
+            <div class="card yoshi-bg">
+
+                <h3 class="card-title">Yoshi</h3>
+
+                <button class="btn up yoshi-btn">Learn more!</button>
+
+            </div>
+
+            <div class="card dk-bg">
+
+                <h3 class="card-title">Donkey Kong</h3>
+
+                <button class="btn up dk-btn">Learn more!</button>
+
+            </div>
+
+            <div class="card toad-bg">
+
+                <h3 class="card-title">Toad</h3>
+
+                <button class="btn up toad-btn">Learn more!</button>
+
+            </div>
+
+            <div class="card rosalina-bg">
+
+                <h3 class="card-title">Rosalina</h3>
+
+                <button class="btn up rosalina-btn">Learn more!</button>
+
+            </div>
+
+            <div class="card daisy-bg">
+
+                <h3 class="card-title">Daisy</h3>
+
+                <button class="btn up daisy-btn">Learn more!</button>
+
+            </div>
+
+            <div class="card bowser-bg">
+
+                <h3 class="card-title">Bowser</h3>
+
+                <button class="btn up bowser-btn">Learn more!</button>
+
+            </div>
 
         </div>
-
-        <div class="card luigi-bg">
-
-            <h3 class="card-title">Luigi</h3>
-
-            <button class="btn" id="luigi-btn">Learn more!</button>
-
-        </div>
-
-        <div class="card wario-bg">
-
-            <h3 class="card-title">Wario</h3>
-
-            <button class="btn" id="wario-btn">Learn more!</button>
-
-        </div>
-
-        <div class="card peach-bg">
-
-            <h3 class="card-title">Peach</h3>
-
-            <button class="btn" id="peach-btn">Learn more!</button>
-
-        </div>
-
-        <div class="card waluigi-bg">
-
-            <h3 class="card-title">Waluigi</h3>
-
-            <button class="btn" id="waluigi-btn">Learn more!</button>
-
-        </div>
-
-        <div class="card goomba-bg">
-
-            <h3 class="card-title">Goomba</h3>
-
-            <button class="btn" id="goomba-btn">Learn more!</button>
-
-        </div>
-
-        <div class="card yoshi-bg">
-
-            <h3 class="card-title">Yoshi</h3>
-
-            <button class="btn" id="yoshi-btn">Learn more!</button>
-
-        </div>
-
-        <div class="card dk-bg">
-
-            <h3 class="card-title">Donkey Kong</h3>
-
-            <button class="btn" id="dk-btn">Learn more!</button>
-
-        </div>
-
-        <div class="card toad-bg">
-
-            <h3 class="card-title">Toad</h3>
-
-            <button class="btn" id="toad-btn">Learn more!</button>
-
-        </div>
-
-        <div class="card rosalina-bg">
-
-            <h3 class="card-title">Rosalina</h3>
-
-            <button class="btn" id="rosalina-btn">Learn more!</button>
-
-        </div>
-
-        <div class="card daisy-bg">
-
-            <h3 class="card-title">Daisy</h3>
-
-            <button class="btn" id="daisy-btn">Learn more!</button>
-
-        </div>
-
-        <div class="card bowser-bg">
-
-            <h3 class="card-title">Bowser</h3>
-
-            <button type="button" class="btn" id="bowser-btn">Learn more!</button>
-
-        </div>
-
-    </div>
 
     </section>
 
-    <div class="pop-up hidden" id="pop">
+    <button class="help-btn bottom">Help</button>
 
-        <h2 id="info-header"></h2>
+    <div class="pop-up hidden" id="mario-pop">
 
-        <p id="info"></p>
+        <div>
+
+            <h1>Mario</h1>
+
+            <p>Mario loves to be number one, showing up on almost every game in his franchise. He is an ambitious
+                protganist, who is always out to save the day. His abilities include using fireballs.</p>
+
+        </div>
+
+        <div class="subgrid">
+
+            <img src="../idm231/graphics/mario.jpg" class="result-img">
+
+            <button class="btn up center mario-btn">Close</button>
+
+        </div>
 
     </div>
 
-    <!-- <div class="pop-up hidden" id="luigi-pop">
+    <div class="pop-up hidden" id="luigi-pop">
 
-        <h2>Luigi</h2>
+        <div>
 
-        <p>
-            Luigi loves for things to be calm and balanced, but his mansion wrecks havoc on his life. He is shy and often pushed to the side for characters like Mario to get attention. His abilities include vacuuming ghosts.
-        </p>
-        
+            <h1>Luigi</h1>
+
+            <p>
+                Luigi loves for things to be calm and balanced, but his mansion wrecks havoc on his life. He is shy and
+                often pushed to the side for characters like Mario to get attention. His abilities include vacuuming
+                ghosts.
+            </p>
+
+        </div>
+
+        <div class="subgrid">
+
+            <img src="../idm231/graphics/luigi.jpg" class="result-img">
+
+            <button class="btn up center luigi-btn">Close</button>
+
+        </div>
     </div>
 
     <div class="pop-up hidden" id="wario-pop">
 
-        <h2>Wario</h2>
+        <div>
 
-        <p>
-            Wario is a greedy, greedy man. I heard he once took candy from a baby, and sold it back for a profit. Wario's motivated by money, like most people. His abilities include smelling bad.
-        </p>
-        
+            <h1>Wario</h1>
+
+            <p>
+                Wario is a greedy, greedy man. I heard he once took candy from a baby, and sold it back for a profit.
+                Wario's motivated by money, like most people. His abilities include smelling bad.
+            </p>
+
+        </div>
+
+
+        <div class="subgrid">
+
+            <img src="../idm231/graphics/wario.jpg" class="result-img">
+
+            <button class="btn up center wario-btn">Close</button>
+
+        </div>
+
     </div>
 
     <div class="pop-up hidden" id="peach-pop">
-        
-        <h2>Peach</h2>
 
-        <p>
-            Peach has come to be known as a damsel in distress, but she is so much more. She is kind, athletic, and of course royalty. She even saves Mario in a few games of her own. Her abilities include using an umbrella.
-        </p>
+        <div>
+
+            <h1>Peach</h1>
+
+            <p>
+                Peach has come to be known as a damsel in distress, but she is so much more. She is kind, athletic, and
+                of course royalty. She even saves Mario in a few games of her own. Her abilities include using an
+                umbrella.
+            </p>
+
+        </div>
+
+        <div class="subgrid">
+
+            <img src="../idm231/graphics/peach.jpg" class="result-img">
+
+            <button class="btn up center peach-btn">Close</button>
+
+        </div>
 
     </div>
 
     <div class="pop-up hidden" id="waluigi-pop">
 
-        <h2>Waluigi</h2>
+        <div>
 
-        <p>
-            Waluigi loves to prank people. A fan favorite amongst the crowd, but often left out of games. He's known to be a real wild card, from everything from racing to tennis. His abilities include more than we could ever know.
-        </p>
-        
+            <h1>Waluigi</h1>
+
+            <p>
+                Waluigi loves to prank people. A fan favorite amongst the crowd, but often left out of games. He's known
+                to
+                be a real wild card, from everything from racing to tennis. His abilities include more than we could
+                ever
+                know.
+            </p>
+
+        </div>
+
+        <div class="subgrid">
+
+            <img src="../idm231/graphics/waluigi.jpg" class="result-img">
+
+            <button class="btn up center waluigi-btn">Close</button>
+
+        </div>
+
     </div>
 
     <div class="pop-up hidden" id="goomba-pop">
 
-        <h2>Goomba</h2>
+        <div>
 
-        <p>
-            Goomba is loved by all. Who could hate him? Goomba's love to hang out with each other and can often be found stacking on top of each other to fight against Mario's crew. Goomba has been known to work for Bowser, but switches sides depending on how he is feeling. His abilities include being a glass canon.
-        </p>
-        
+            <h1>Goomba</h1>
+
+            <p>
+                Goomba is loved by all. Who could hate him? Goomba's love to hang out with each other and can often be found stacking on top of each other to fight against Mario's crew. Goomba has been known to work for Bowser, but switches sides depending on how he is feeling. His abilities include being a glass canon.
+            </p>
+
+        </div>
+
+        <div class="subgrid">
+
+            <img src="../idm231/graphics/goomba.jpg" class="result-img">
+
+            <button class="btn up center goomba-btn">Close</button>
+
+        </div>
+
     </div>
 
     <div class="pop-up hidden" id="yoshi-pop">
 
-        <h2>Yoshi</h2>
+        <div>
 
-        <p>
-            Yoshi has been known to be a fun and cooperative character! He is always willing to help others. He is known to steal food from the other characters when they aren't looking. His abilities include being able to run on air.
-        </p>
-        
+            <h1>Yoshi</h1>
+
+            <p>
+                Yoshi has been known to be a fun and cooperative character! He is always willing to help others. He is known to steal food from the other characters when they aren't looking. His abilities include being able to run on air.
+            </p>
+
+        </div>
+
+        <div class="subgrid">
+
+            <img src="../idm231/graphics/yoshi.jpg" class="result-img">
+
+            <button class="btn up center yoshi-btn">Close</button>
+
+        </div>
+
     </div>
 
     <div class="pop-up hidden" id="dk-pop">
-        
+
+        <div>
+
+            <h1>Donkey Kong</h1>
+
+            <p>
+                Donkey Kong is tenacious and loyal. No matter how many times his bananas get taken, he doesn't switch to another fruit. He goes after them, gets them back, and stomps all over anyone that gets in his face along the way. His abilities include being able to eat a lot of bananas.
+            </p>
+
+        </div>
+
+        <div class="subgrid">
+
+            <img src="../idm231/graphics/donkey.jpg" class="result-img">
+
+            <button class="btn up center dk-btn">Close</button>
+
+        </div>
+
+
     </div>
 
     <div class="pop-up hidden" id="toad-pop">
-        
+
+        <div>
+
+            <h1>Toad</h1>
+
+            <p>
+                Toad is can sometimes be timid and cowardly. Despite his fears, he has become a successful explorer and treasure tracker. His abilities include being able to conquer his fears.
+            </p>
+
+        </div>
+
+        <div class="subgrid">
+
+            <img src="../idm231/graphics/toad.jpg" class="result-img">
+
+            <button class="btn up center toad-btn">Close</button>
+
+        </div>
+
     </div>
 
     <div class="pop-up hidden" id="rosalina-pop">
-        
+
+        <div>
+
+            <h1>Rosalina</h1>
+
+            <p>
+                Rosalina is shown to be a wise, mature, motherly and kind woman, who has made protecting the cosmos her mission in life. She is a loving mother figure to the Lumas, caring for her children diligently. Her abilities include manipulating the stars. 
+            </p>
+
+        </div>
+
+        <div class="subgrid">
+
+            <img src="../idm231/graphics/rosalina.jpg" class="result-img">
+
+            <button class="btn up center rosalina-btn">Close</button>
+
+        </div>
+
     </div>
 
     <div class="pop-up hidden" id="daisy-pop">
-        
+
+        <div>
+
+            <h1>Daisy</h1>
+
+            <p>
+                Daisy is competitive and lively, but is also confident and kind. She's a jack of all trades in sports. Her abilities include being able to fight with a golf club.
+            </p>
+
+        </div>
+
+        <div class="subgrid">
+
+            <img src="../idm231/graphics/daisy.jpg" class="result-img">
+
+            <button class="btn up center daisy-btn">Close</button>
+
+        </div>
     </div>
 
     <div class="pop-up hidden" id="bowser-pop">
-        
-    </div> -->
 
+        <div>
 
-    <!-- <main>
+            <h1>Bowser</h1>
 
-        <div class="birthday-form">
-
-            <div>
-
-                <h2> Enter your birthday: </h2>
-
-            </div>
-
-
-            <div class="userInfo">
-
-                <p><input type="text" id="name" placeholder="First Name"></p>
-
-                <p><input type="date" id="bday"></p>
-
-                <p><button id="userSubmit">Submit</button></p>
-
-            </div>
-
+            <p>
+                Bowser is angry, immature, and selfish. Bowser is a short-tempered guy, who only wants to wreak havoc on the Mushroom Kingdom in the pursuit of power. Conceited and possessive, Bowser will stop at nothing to crush his foes. His abilities include being a fire breathing turtle.
+            </p>
 
         </div>
 
-        <div class="icon-grid">
+        <div class="subgrid">
 
-            <button id="Cap" class="icon-child">
-                <img src="../graphics/luigi-pixel.png" alt="img">
-            </button>
+            <img src="../idm231/graphics/bowser.jpg" class="result-img">
 
-            <button id="Sag" class="icon-child">
-                <img src="../graphics/donkey-pixel.png" alt="img">
-            </button>
-
-            <button id="Sco" class="icon-child">
-                <img src="../graphics/luigi-pixel.png" alt="img">
-            </button>
-
-            <button id="Lib" class="icon-child">
-                <img src="../graphics/donkey-pixel.png" alt="img">
-            </button>
-
-            <button id="Vir" class="icon-child">
-                <img src="../graphics/luigi-pixel.png" alt="img">
-            </button>
-
-            <button id="Leo" class="icon-child">
-                <img src="../graphics/donkey-pixel.png" alt="img">
-            </button>
-
-            <button id="Can" class="icon-child">
-                <img src="../graphics/luigi-pixel.png" alt="img">
-            </button>
-
-            <button id="Gem" class="icon-child">
-                <img src="../graphics/donkey-pixel.png" alt="img">
-            </button>
-
-            <button id="Tau" class="icon-child">
-                <img src="../graphics/luigi-pixel.png" alt="img">
-            </button>
-
-            <button id="Ari" class="icon-child">
-                <img src="../graphics/donkey-pixel.png" alt="img">
-            </button>
-
-            <button id="Pis" class="icon-child">
-                <img src="../graphics/luigi-pixel.png" alt="img">
-            </button>
-
-            <button id="Aqu" class="icon-child">
-                <img src="../graphics/donkey-pixel.png" alt="img">
-            </button>
+            <button class="btn up center bowser-btn">Close</button>
 
         </div>
 
-        <div class="results">
+    </div>
 
-            <img src="" id="image">
+    <!-- HELP POPUP -->
 
-            <h1 id="char"></h1>
+    <div class="pop-up hidden" id="help-pop">
 
-            <h2 id="sign"></h2>
+        <div>
 
-            <p id="hi"></p>
+            <h1>How To Use</h1>
 
-            <p id="text"></p>
+            <p>
+                To figure out which Mario character you are, all you have to do is enter your birthday and name in the boxes on the right. After that, just hit submit and find out. For any additional info on the characters, just click 'learn more' on any of the characters on screen.
+            </p>
+
+        </div>
+
+        <div>
+
+            <h1 class="have-fun">HAVE FUN!</h1>
+
+            <button class="center help-btn bottom-relative">Close</button>
 
         </div>
 
 
-    </main> -->
+    </div>
 
     <script src="./zodiac.js"></script>
 

@@ -5,9 +5,9 @@ const zodiacSign = [
     {
         sign: 'Capricorn',
         char: 'Wario',
-        image: '/graphics/wario.jpg',
-        text: 'Capricorns are greedy and lose at Mario Party.',
-        info: 'Wario is a greedy, greedy man. I heard he once took candy from a baby, and sold it back for a profit. Wario is motivated by money, like most people. His abilities include smelling bad.',
+        image: '../idm231/graphics/wario.jpg',
+        text: "You is an extremely driven character. Ambitious, hardworking, and enterprising is one way to describe your desires, just like Wario's thrist for money. You are very anchored in your drives for goals, which allows you to go all out to achieve them.",
+        audio: '../idm231/sounds/wario.mp3',
         dateStart: ['12', '22'],
         dateEnd: ['1', '19']
     },
@@ -15,9 +15,9 @@ const zodiacSign = [
     {
         sign: 'Sagittarius',
         char: 'Donkey Kong',
-        image: '/graphics/donkey.jpg',
-        text: 'Being a Sagittarius means you are great at Mario Kart.',
-        info: 'Wario is a greedy, greedy man. I heard he once took candy from a baby, and sold it back for a profit. Wario is motivated by money, like most people. His abilities include smelling bad.',
+        image: '../idm231/graphics/donkey.jpg',
+        text: 'You are both an adventurer and a risk-taker. Just like Donkey Kong, you will explore anywhere whether alone, or with friends. You are not afraid to take risks, even when it comes to things out of your comfort zone.',
+        audio: '../idm231/sounds/donkey.mp3',
         dateStart: ['11', '22'],
         dateEnd: ['12', '21']
     },
@@ -25,9 +25,9 @@ const zodiacSign = [
     {
         sign: 'Scorpio',
         char: 'Rosalina',
-        image: '/graphics/rosalina.jpg',
-        text: 'What game are you even from?',
-        info: 'Mario loves to be number one, showing up on almost every game in his franchise. He is an ambitious protganist, who is always out to save the day. His abilities include using fireballs.',
+        image: '../idm231/graphics/rosalina.jpg',
+        text: 'You are a profound thinker. Like Rosalina, you often think about the universe. You can be secretive at times, but you are passionate about a lot of your goals.',
+        audio: '../idm231/sounds/rosalina.mp3',
         dateStart: ['10', '24'],
         dateEnd: ['11', '21']
     },
@@ -35,9 +35,9 @@ const zodiacSign = [
     {
         sign: 'Libra',
         char: 'Luigi',
-        image: '/graphics/luigi.jpg',
-        text: 'You literally wear an L on your forehead.',
-        info: 'Luigi loves for things to be calm and balanced, but his mansion wrecks havoc on his life. He is shy and often pushed to the side for characters like Mario to get attention. His abilities include vacuuming ghosts.',
+        image: '../idm231/graphics/luigi.jpg',
+        text: 'You crave balance, just like Luigi in his mansion.You can be a little self-indulgent, but are a generous and kind soul at heart.',
+        audio: '../idm231/sounds/luigi.mp3',
         dateStart: ['9', '23'],
         dateEnd: ['10', '23']
     },
@@ -45,9 +45,9 @@ const zodiacSign = [
     {
         sign: 'Virgo',
         char: 'Toad',
-        image: '/graphics/',
-        text: 'I personally think Toad is a cute lil guy.',
-        info: 'Mario loves to be number one, showing up on almost every game in his franchise. He is an ambitious protganist, who is always out to save the day. His abilities include using fireballs.',
+        image: '../idm231/graphics/toad.jpg',
+        text: 'You are practical, sensible, and loyal. Just like Toad, you will always show up when your friends need support. You make an excellent friend.',
+        audio: '../idm231/sounds/toad.mp3',
         dateStart: ['8', '23'],
         dateEnd: ['9', '22']
     },
@@ -55,9 +55,9 @@ const zodiacSign = [
     {
         sign: 'Leo',
         char: 'Waluigi',
-        image: '#',
-        text: 'Constantly reliquished to secondary games.',
-        info: 'Waluigi loves to prank people. A fan favorite amongst the crowd, but often left out of games. He is known to be a real wild card, from everything from racing to tennis. His abilities include more than we could ever know.',
+        image: '../idm231/graphics/waluigi.jpg',
+        text: 'You are proud and confident. Like Waluigi, youlive life to the fullest rather than being in charge at home, work, and play.',
+        audio: '../idm231/sounds/waluigi.mp3',
         dateStart: ['7', '23'],
         dateEnd: ['8', '22']
     },
@@ -65,9 +65,9 @@ const zodiacSign = [
     {
         sign: 'Cancer',
         char: 'Peach',
-        image: '#',
-        text: 'Did you guys ever play the Super Princess Peach games? Those were my favorite as a kid. Got to save mario and all that. It was great.',
-        info: 'Peach has come to be known as a damsel in distress, but she is so much more. She is kind, athletic, and of course royalty. She even saves Mario in a few games of her own. Her abilities include using an umbrella.',
+        image: '../idm231/graphics/peach.jpg',
+        text: 'You are nurturing, sensitive, and compassionate. Like Peach, you care about other greatly. However, you are still self-protective and security-seeking, like Peach must be to avoid Bowser.',
+        audio: '../idm231/sounds/peach.mp3',
         dateStart: ['6', '22'],
         dateEnd: ['7', '22']
     },
@@ -75,9 +75,9 @@ const zodiacSign = [
     {
         sign: 'Gemini',
         char: 'Goomba',
-        image: '#',
-        text: 'Goomba is a 2 faced traitor who sides with Bowser only when necessary, but has been know to switch sides so he can participate in Mario Party.',
-        info: 'Goomba is loved by all. Who could hate him? Goombas love to hang out with each other and can often be found stacking on top of each other to fight against Mario. Goomba has been known to work for Bowser, but switches sides depending on how he is feeling. His abilities include being a glass canon.',
+        image: '../idm231/graphics/goomba.jpg',
+        text: 'You can be grumpy and aggressive, but also  cooperative and kind. Some believe goombas to have a certain duality to them. Your mood can change on a whim, but your values are absolute.',
+        audio: '../idm231/sounds/goomba.mp3',
         dateStart: ['5', '21'],
         dateEnd: ['6', '21']
     },
@@ -85,9 +85,9 @@ const zodiacSign = [
     {
         sign: 'Taurus',
         char: 'Yoshi',
-        image: '#',
-        text: 'Yoshi is cool and all, but you ever notice how he is really just a disposable vehicle for mario, kinda sad.',
-        info: 'Yoshi has been known to be a fun and cooperative character! He is always willing to help others. He is known to steal food from the other characters when they are not looking. His abilities include being able to run on air.',
+        image: '../idm231/graphics/yoshi.jpg',
+        text: 'You are stable and extremely sociable. Like Yoshi, you stive for greatness, but that can lead to neediness as well.',
+        audio: '../idm231/sounds/yoshi.mp3',
         dateStart: ['4', '20'],
         dateEnd: ['5', '20']
     },
@@ -95,9 +95,9 @@ const zodiacSign = [
     {
         sign: 'Aries',
         char: 'Mario',
-        image: '#',
-        text: 'True villian of the games.',
-        info: 'Mario loves to be number one, showing up on almost every game in his franchise. He is an ambitious protganist, who is always out to save the day. His abilities include using fireballs.',
+        image: '../idm231/graphics/mario.jpg',
+        text: 'You are spontaneous and courageous. You have a sense of adventure and love to explore. Like Mario, you are determined and bold, and are good at resolving issues that come about.',
+        audio: '../idm231/sounds/mario.mp3',
         dateStart: ['3', '21'],
         dateEnd: ['4', '19']
     },
@@ -105,9 +105,9 @@ const zodiacSign = [
     {
         sign: 'Pisces',
         char: 'Daisy',
-        image: '#',
-        text: 'Doesnt really have anything going for her, no solo games, no special traits, and she dates Luigi.',
-        info: 'Mario loves to be number one, showing up on almost every game in his franchise. He is an ambitious protganist, who is always out to save the day. His abilities include using fireballs.',
+        image: '../idm231/graphics/daisy.jpg',
+        text: 'You are emotionally sensitive, gracious, and emotionally aware. Like Daisy, you are an empathetic figure to those around. People feel like they can trust you.',
+        audio: '../idm231/sounds/daisy.mp3',
         dateStart: ['2', '19'],
         dateEnd: ['3', '20']
     },
@@ -115,9 +115,9 @@ const zodiacSign = [
     {
         sign: 'Aquarius',
         char: 'Bowser',
-        image: '#',
-        text: 'Bowser is just a goofy little turtle.',
-        info: 'Mario loves to be number one, showing up on almost every game in his franchise. He is an ambitious protganist, who is always out to save the day. His abilities include using fireballs.',
+        image: '../idm231/graphics/bowser.jpg',
+        text: 'You are advanced, self-reliant, clever, and exceptional. Like Bowser, you are always one step ahead of your opponents and can use your wit to outplay them.',
+        audio: '../idm231/sounds/bowser.mp3',
         dateStart: ['1', '20'],
         dateEnd: ['2', '18']
     }
@@ -126,13 +126,12 @@ const zodiacSign = [
 // VARIABLES FOR TEXT
 
 const sign = document.getElementById("sign");
-const image = document.getElementById("image").src;
+const image = document.getElementById("image");
 const text = document.getElementById("text");
 const char = document.getElementById("char");
-const hi = document.getElementById("hi");
+const audio = document.getElementById("audio");
 
-const infoHeader = document.getElementById("info-header");
-const info = document.getElementById("info");
+
 
 // VARIABLES FOR INPUT CALENDAR
 
@@ -160,29 +159,147 @@ userSubmitBtn.addEventListener('click', function () {
             (whichMonth == zodiacSign[i].dateEnd[0] && whichDayOfMonth <= zodiacSign[i].dateEnd[1])) {
 
             //reveal zodiac img in html
-            image.innerHTML = zodiacSign[i].image;
-            console.log(zodiacSign[i].image);
+            image.src = zodiacSign[i].image;
+
+            //play audio
+            audio.src = zodiacSign[i].audio;
+            audio.play();
 
             //reveal zodiac text in html + say hi
             text.innerHTML = 'Hi ' + usersFirstName + '! You are  ' + zodiacSign[i].char + '! ' + zodiacSign[i].text;
 
             //reveal zodiac chracter in html
-            char.innerHTML = zodiacSign[i].char;
+            char.innerHTML = 'YOU ARE ' + zodiacSign[i].char;
 
         }
     }
 
 });
 
+//MARIO POP UPS
 
-// variables for info on characters 
+const marioBtn = document.querySelectorAll('.mario-btn');
+const marioPop =document.getElementById('mario-pop');
 
-//DOES NOT WORK FIND OUT WHY OR CHANGE IT
-const popUp = document.getElementById("pop");
+for (let i = 0; i < marioBtn.length; i++) {
+    marioBtn[i].addEventListener("click", function() {
+      marioPop.classList.toggle("hidden");
+    });}
 
-const btnMario = document.querySelectorAll("bowser-btn");
-btnMario.addEventListener('click', function () {
-    popUp.classList.toggle("hidden")
-    infoHeader.innerHTML = zodiacSign[11].char;
-    info.innerHTML = zodiacSign[11].info;
-});
+//LUIGI
+
+const luigiBtn = document.querySelectorAll('.luigi-btn');
+const luigiPop =document.getElementById('luigi-pop');
+
+for (let i = 0; i < marioBtn.length; i++) {
+    luigiBtn[i].addEventListener("click", function() {
+      luigiPop.classList.toggle("hidden");
+    });}
+
+//WARIO
+
+const warioBtn = document.querySelectorAll('.wario-btn');
+const warioPop =document.getElementById('wario-pop');
+
+for (let i = 0; i < marioBtn.length; i++) {
+    warioBtn[i].addEventListener("click", function() {
+      warioPop.classList.toggle("hidden");
+    });}
+
+//PEACH
+
+const peachBtn = document.querySelectorAll('.peach-btn');
+const peachPop =document.getElementById('peach-pop');
+
+for (let i = 0; i < marioBtn.length; i++) {
+    peachBtn[i].addEventListener("click", function() {
+      peachPop.classList.toggle("hidden");
+    });}
+
+//WALUIGI
+
+const waluigiBtn = document.querySelectorAll('.waluigi-btn');
+const waluigiPop =document.getElementById('waluigi-pop');
+
+for (let i = 0; i < marioBtn.length; i++) {
+    waluigiBtn[i].addEventListener("click", function() {
+      waluigiPop.classList.toggle("hidden");
+    });}
+
+//GOOMBA
+
+const goombaBtn = document.querySelectorAll('.goomba-btn');
+const goombaPop =document.getElementById('goomba-pop');
+
+for (let i = 0; i < marioBtn.length; i++) {
+    goombaBtn[i].addEventListener("click", function() {
+      goombaPop.classList.toggle("hidden");
+    });}
+
+//YOSHI
+
+const yoshiBtn = document.querySelectorAll('.yoshi-btn');
+const yoshiPop =document.getElementById('yoshi-pop');
+
+for (let i = 0; i < marioBtn.length; i++) {
+    yoshiBtn[i].addEventListener("click", function() {
+      yoshiPop.classList.toggle("hidden");
+    });}
+
+//DONKEY KONG
+
+const dkBtn = document.querySelectorAll('.dk-btn');
+const dkPop =document.getElementById('dk-pop');
+
+for (let i = 0; i < marioBtn.length; i++) {
+    dkBtn[i].addEventListener("click", function() {
+      dkPop.classList.toggle("hidden");
+    });}
+
+//TOAD
+
+const toadBtn = document.querySelectorAll('.toad-btn');
+const toadPop =document.getElementById('toad-pop');
+
+for (let i = 0; i < marioBtn.length; i++) {
+    toadBtn[i].addEventListener("click", function() {
+      toadPop.classList.toggle("hidden");
+    });}
+
+//ROSALINA
+
+const rosaBtn = document.querySelectorAll('.rosalina-btn');
+const rosaPop =document.getElementById('rosalina-pop');
+
+for (let i = 0; i < marioBtn.length; i++) {
+    rosaBtn[i].addEventListener("click", function() {
+      rosaPop.classList.toggle("hidden");
+    });}
+
+//DAISY
+
+const daisyBtn = document.querySelectorAll('.daisy-btn');
+const daisyPop =document.getElementById('daisy-pop');
+
+for (let i = 0; i < marioBtn.length; i++) {
+    daisyBtn[i].addEventListener("click", function() {
+      daisyPop.classList.toggle("hidden");
+    });}
+
+//BOWSER
+
+const bowserBtn = document.querySelectorAll('.bowser-btn');
+const bowserPop =document.getElementById('bowser-pop');
+
+for (let i = 0; i < marioBtn.length; i++) {
+    bowserBtn[i].addEventListener("click", function() {
+      bowserPop.classList.toggle("hidden");
+    });}
+
+const helpBtn = document.querySelectorAll('.help-btn');
+const helpPop =document.getElementById('help-pop');
+
+for (let i = 0; i < marioBtn.length; i++) {
+    helpBtn[i].addEventListener("click", function() {
+      helpPop.classList.toggle("hidden");
+    });}
