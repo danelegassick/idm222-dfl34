@@ -85,12 +85,18 @@ input[type=date] {
 
 .top-half-zodiac {
     background-color: var(--light);
-    height: 60vh;
+    height: 70vh;
     display: grid;
     justify-items: center;
     grid-template-columns: 1fr 2fr 200px;
     padding:  5rem 3rem 3rem;
     width: 100%;
+    grid-template-areas: 
+    "text results inputs";
+}
+
+.top-half-text {
+    grid-area: text;
 }
 
 .what-character {
@@ -113,6 +119,7 @@ input[type=date] {
 
 .top-half-inputs {
     text-align: end;
+    grid-area: inputs;
 }
 
 .input-label {
@@ -131,6 +138,7 @@ input[type=date] {
     grid-template-columns: 225px 1fr;
     gap: 1rem;
     align-self: center;
+    grid-area: results;
 }
 
 .bottom-half-zodiac {
@@ -395,4 +403,36 @@ input[type=date] {
     box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.2);
     color: white;
     outline: none;
+}
+
+@media only screen and (max-width: 1400px) {
+    .top-half-zodiac {
+        height: fit-content;
+        padding-bottom: 6rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .top-half-zodiac {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "text"
+        "inputs"
+        "results";
+    }
+
+    .top-half-inputs {
+        text-align: start;
+        width: 100%;
+    }
+
+    .results {
+        grid-template-columns: 1fr;
+    }
+
+    .what-character {
+        font-size: 4.5rem;
+        height: fit-content;
+        padding-bottom: 1rem;
+    }
 }

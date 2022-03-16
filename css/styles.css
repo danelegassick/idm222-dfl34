@@ -1040,3 +1040,26 @@ h4 {
     margin: 1rem 0;
 }
 
+@media only screen and (max-width: 400px){
+    .resume {
+        padding: 1rem;
+    }
+
+    .about-resume-container {
+        margin: 0.5rem;
+        padding: 0;
+    }
+
+    .about-resume-grid {
+        grid-template-columns: 1fr;
+        gap: 0rem
+    }
+
+    .right {
+        text-align: left;
+    }
+}
+
+.gap {
+    gap: 2rem;
+}
