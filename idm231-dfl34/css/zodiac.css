@@ -15,13 +15,13 @@ body {
 
 @font-face {
     font-family: 'SNES';
-    src: url('../fonts/snes.woff2') format('woff2');
+    src: url('/fonts/snes.woff2') format('woff2');
 }
 
 @font-face {
     font-family: 'Redwing';
-    src: url('../fonts/redwing-medium-webfont.woff2') format('woff2');
-    src: url('../fonts/redwing-light-webfont.woff2') format('woff2');
+    src: url('/fonts/redwing-light-webfont.woff2') format('woff2');
+    src: url('/fonts/redwing-medium-webfont.woff2') format('woff2');
 }
 
 p {
@@ -182,7 +182,7 @@ input[type=date] {
 }
 
 .mario-bg {
-    background-image: url("../idm231/graphics/mario.jpg"); /* The image used */
+    background-image: url("/idm231-dfl34/graphics/mario.jpg"); /* The image used */
     background-color: #2c2731; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -190,7 +190,7 @@ input[type=date] {
 }
 
 .luigi-bg {
-    background-image: url("../idm231/graphics/luigi.jpg"); /* The image used */
+    background-image: url("/idm231-dfl34/graphics/luigi.jpg"); /* The image used */
     background-color: #2c2731; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -198,7 +198,7 @@ input[type=date] {
 }
 
 .wario-bg {
-    background-image: url("../idm231/graphics/wario.jpg"); /* The image used */
+    background-image: url("/idm231-dfl34/graphics/wario.jpg"); /* The image used */
     background-color: #2c2731; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -206,7 +206,7 @@ input[type=date] {
 }
 
 .peach-bg {
-    background-image: url("../idm231/graphics/peach.jpg"); /* The image used */
+    background-image: url("/idm231-dfl34/graphics/peach.jpg"); /* The image used */
     background-color: #2c2731; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -214,7 +214,7 @@ input[type=date] {
 }
 
 .waluigi-bg {
-    background-image: url("../idm231/graphics/waluigi.jpg"); /* The image used */
+    background-image: url("/idm231-dfl34/graphics/waluigi.jpg"); /* The image used */
     background-color: #2c2731; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -222,7 +222,7 @@ input[type=date] {
 }
 
 .goomba-bg {
-    background-image: url("../idm231/graphics/goomba.jpg"); /* The image used */
+    background-image: url("/idm231-dfl34/graphics/goomba.jpg"); /* The image used */
     background-color: #2c2731; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -230,7 +230,7 @@ input[type=date] {
 }
 
 .yoshi-bg {
-    background-image: url("../idm231/graphics/yoshi.jpg"); /* The image used */
+    background-image: url("/idm231-dfl34/graphics/yoshi.jpg"); /* The image used */
     background-color: #2c2731; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -238,7 +238,7 @@ input[type=date] {
 }
 
 .dk-bg {
-    background-image: url("../idm231/graphics/donkey.jpg"); /* The image used */
+    background-image: url("/idm231-dfl34/graphics/donkey.jpg"); /* The image used */
     background-color: #2c2731; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -246,7 +246,7 @@ input[type=date] {
 }
 
 .toad-bg {
-    background-image: url("../idm231/graphics/toad.jpg"); /* The image used */
+    background-image: url("/idm231-dfl34/graphics/toad.jpg"); /* The image used */
     background-color: #2c2731; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -254,7 +254,7 @@ input[type=date] {
 }
 
 .rosalina-bg {
-    background-image: url("../idm231/graphics/rosalina.jpg"); /* The image used */
+    background-image: url("/idm231-dfl34/graphics/rosalina.jpg"); /* The image used */
     background-color: #2c2731; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -262,7 +262,7 @@ input[type=date] {
 }
 
 .daisy-bg {
-    background-image: url("../idm231/graphics/daisy.jpg"); /* The image used */
+    background-image: url("/idm231-dfl34/graphics/daisy.jpg"); /* The image used */
     background-color: #2c2731; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -270,7 +270,7 @@ input[type=date] {
 }
 
 .bowser-bg {
-    background-image: url("../idm231/graphics/bowser.jpg"); /* The image used */
+    background-image: url("/idm231-dfl34/graphics/bowser.jpg"); /* The image used */
     background-color: #2c2731; /* Used if the image is unavailable */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
@@ -387,8 +387,9 @@ input[type=date] {
 	box-shadow: inset 0 -0.125em 0 #dd2020;
 	transition: box-shadow 300ms cubic-bezier(0.77, 0, 0.175, 1), color 300ms cubic-bezier(0.77, 0, 0.175, 1), text-decoration 300ms ease;
     color: var(--dark);
-    font-family: 'Redwing';
-    font-size: 1.25rem;
+    font-family: var(--font-stack);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
     text-decoration: none;
 }
 
