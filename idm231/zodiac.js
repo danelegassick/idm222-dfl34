@@ -36,7 +36,7 @@ const zodiacSign = [
         sign: 'Libra',
         char: 'Luigi',
         image: '../idm231/graphics/luigi.jpg',
-        text: 'You crave balance, just like Luigi in his mansion.You can be a little self-indulgent, but are a generous and kind soul at heart.',
+        text: 'You crave balance, just like Luigi in his mansion. You can be a little self-indulgent, but are a generous and kind soul at heart.',
         audio: '../idm231/sounds/luigi.mp3',
         dateStart: ['9', '23'],
         dateEnd: ['10', '23']
@@ -56,7 +56,7 @@ const zodiacSign = [
         sign: 'Leo',
         char: 'Waluigi',
         image: '../idm231/graphics/waluigi.jpg',
-        text: 'You are proud and confident. Like Waluigi, youlive life to the fullest rather than being in charge at home, work, and play.',
+        text: 'You are proud and confident. Like Waluigi, you live life to the fullest rather than being in charge at home, work, and play.',
         audio: '../idm231/sounds/waluigi.mp3',
         dateStart: ['7', '23'],
         dateEnd: ['8', '22']
@@ -76,7 +76,7 @@ const zodiacSign = [
         sign: 'Gemini',
         char: 'Goomba',
         image: '../idm231/graphics/goomba.jpg',
-        text: 'You can be grumpy and aggressive, but also  cooperative and kind. Some believe goombas to have a certain duality to them. Your mood can change on a whim, but your values are absolute.',
+        text: 'You can be grumpy and aggressive, but also cooperative and kind. Some believe goombas to have a certain duality to them. Your mood can change on a whim, but your values are absolute.',
         audio: '../idm231/sounds/goomba.mp3',
         dateStart: ['5', '21'],
         dateEnd: ['6', '21']
