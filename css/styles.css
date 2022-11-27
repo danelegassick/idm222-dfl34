@@ -99,7 +99,7 @@
     padding: 1rem;
 }
 
-.topBlock-nav .link-style {
+.link-style {
 	border-bottom: .125em solid var(--gray);
 	box-shadow: inset 0 -0.125em 0 var(--gray);
 	transition: box-shadow 300ms cubic-bezier(0.77, 0, 0.175, 1), color 300ms cubic-bezier(0.77, 0, 0.175, 1), text-decoration 300ms ease;
@@ -109,13 +109,13 @@
     text-decoration: none;
 }
 
-.topBlock-nav .link-style:hover {
+.link-style:hover {
     box-shadow: inset 0 -1.125em 0 var(--gray);
     color: #000;
     text-decoration: underline var(--dark);
 }
 
-.topBlock-nav .link-style:focus {
+.link-style:focus {
     background: var(--light);
     box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.2);
     color: white;
@@ -707,6 +707,10 @@ h4 {
     background-image: url(/graphics/\ barhop-intro.jpg);
 }
 
+.rug-img {
+    background-image: url(/graphics/rug-table/rug-intro.png);
+}
+
 .barhop-color-fill {
     -webkit-text-fill-color: var(--barhop-color);
     -webkit-text-stroke: 2px var(--light);
@@ -789,6 +793,12 @@ h4 {
     }
 
     .barhop-img {
+        background-image: none;
+        background-color: var(--barhop-color);
+    }
+
+    
+    .rug-img {
         background-image: none;
         background-color: var(--barhop-color);
     }
@@ -1214,4 +1224,35 @@ h4 {
 
 .shrink {
     font-size: 5rem;
+}
+
+.contain-grid {
+    max-width: 900px;
+}
+
+.contain-small {
+    max-width: 700px;
+}
+
+.link-style-yellow {
+	border-bottom: .125em solid var(--yellow);
+	box-shadow: inset 0 -0.125em 0 var(--yellow);
+	transition: box-shadow 300ms cubic-bezier(0.77, 0, 0.175, 1), color 300ms cubic-bezier(0.77, 0, 0.175, 1), text-decoration 300ms ease;
+    color: var(--light);
+    font-family: 'Redwing';
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.link-style-yellow:hover {
+    box-shadow: inset 0 -1.125em 0 var(--yellow);
+    color: #000;
+    text-decoration: underline var(--yellow);
+}
+
+.link-style-yellow:focus {
+    background: var(--light);
+    box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.2);
+    color: white;
+    outline: none;
 }
