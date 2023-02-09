@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <script src="/js/main.js"></script>
+    <script defer src="/js/main.js"></script>
 
     <div id="scroll-indicator"></div>
 
@@ -38,7 +38,7 @@
 
         <div class="image-top rug-img">
 
-            <div class="title">
+            <div class="title hidden">
 
                 <h1 class="title-header shrink barhop-color-fill">Hands-On Design</h1>
 
@@ -57,49 +57,55 @@
 
             <div class="body-text">
 
-                <div class="body-tags-container">
+                <section class="hidden">
+                    <div class="body-tags-container">
+    
+                        <h4 class="body-tags">Product Design</h4>
+    
+                        <h4 class="body-tags">Hands-on</h4>
+    
+                        <h4 class="body-tags">Building</h4>
+    
+                    </div>
+    
+                    <p class="body-para">
+                        My interest in tufting, a.k.a. rug making, sprouted after seeing a surge in creative rugs online. I
+                        noticed that people had bright and unique rugs on their floor, and I wanted to know how those were
+                        made. After a deep dive into tufting, I learned that all I needed were a few tools to get started.
+                        So, with my first co-op paycheck I got started.
+                    </p>
+    
+                    <div class="line"></div>
+                </section>
 
-                    <h4 class="body-tags">Product Design</h4>
+                <section class="hidden">
+                    <h3 class="body-header">TOOLS</h3>
+    
+                    <p class="body-para">
+                        My setup included a wooden frame with carpet tacks that I could clamp onto my desk, a cut-pile
+                        tufting gun, a hot glue gun, a projector, industrial carpet adhesive, clippers, and sheep shears.
+                    </p>
+    
+                    <div class="line"></div>
+                </section>
 
-                    <h4 class="body-tags">Hands-on</h4>
-
-                    <h4 class="body-tags">Building</h4>
-
-                </div>
-
-                <p class="body-para">
-                    My interest in tufting, a.k.a. rug making, sprouted after seeing a surge in creative rugs online. I
-                    noticed that people had bright and unique rugs on their floor, and I wanted to know how those were
-                    made. After a deep dive into tufting, I learned that all I needed were a few tools to get started.
-                    So, with my first co-op paycheck I got started.
-                </p>
-
-                <div class="line"></div>
-
-                <h3 class="body-header">TOOLS</h3>
-
-                <p class="body-para">
-                    My setup included a wooden frame with carpet tacks that I could clamp onto my desk, a cut-pile
-                    tufting gun, a hot glue gun, a projector, industrial carpet adhesive, clippers, and sheep shears.
-                </p>
-
-                <div class="line"></div>
-
-                <h3 class="body-header">GETTING STARTED</h3>
-
-                <p class="body-para">
-                    The steps to start tufting are pretty straightforward. Get your cloth taut on the frame, project
-                    your design (with a mirrored image), mark out where your colors will be, and start tufting.
-                </p>
+                <section class="hidden">
+                    <h3 class="body-header">GETTING STARTED</h3>
+    
+                    <p class="body-para">
+                        The steps to start tufting are pretty straightforward. Get your cloth taut on the frame, project
+                        your design (with a mirrored image), mark out where your colors will be, and start tufting.
+                    </p>
+                </section>
 
                 <br>
 
             </div>
 
-            <div class="grid-2-col gap contain-grid">
-                <img src="/graphics/rug-table/projection.JPG" alt="projection" class="body-img">
+            <div class="grid-2-col gap contain-grid libgen-delay">
+                <img src="/graphics/rug-table/projection.JPG" alt="projection" class="body-img hidden">
 
-                <img src="/graphics/rug-table/projection-2.JPG" alt="projection" class="body-img">
+                <img src="/graphics/rug-table/projection-2.JPG" alt="projection" class="body-img hidden">
             </div>
 
         </div>
@@ -108,7 +114,7 @@
 
             <div class="grid-2-col">
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <h3 class="body-header light-text">TUFTING</h3>
 
@@ -125,11 +131,11 @@
 
             </div>
 
-            <div class="grid-2-col gap contain-grid">
+            <div class="grid-2-col gap contain-grid libgen-delay">
 
-                <img class="body-img" src="/graphics/rug-table/progress.JPG" alt="original-elements">
+                <img class="body-img hidden" src="/graphics/rug-table/progress.JPG" alt="original-elements">
 
-                <img class="body-img" src="/graphics/rug-table/progess-2.JPG" alt="original-elements">
+                <img class="body-img hidden" src="/graphics/rug-table/progess-2.JPG" alt="original-elements">
 
             </div>
 
@@ -137,7 +143,7 @@
 
                 <div></div>
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <div class="line-light"></div>
 
@@ -158,7 +164,7 @@
 
         <div class="light-section">
 
-            <div class="body-text">
+            <div class="body-text hidden">
 
                 <h3 class="body-header">CARVING</h3>
 
@@ -174,11 +180,11 @@
 
             </div>
 
-            <div class="grid-2-col contain-grid gap">
+            <div class="grid-2-col contain-grid gap libgen-delay">
 
-                <img class="body-img" src="/graphics/rug-table/carving-1.JPG" alt="carving">
+                <img class="body-img hidden" src="/graphics/rug-table/carving-1.JPG" alt="carving">
 
-                <img class="body-img" src="/graphics/rug-table/carving-2.JPG" alt="carving">
+                <img class="body-img hidden" src="/graphics/rug-table/carving-2.JPG" alt="carving">
 
             </div>
 
@@ -188,7 +194,7 @@
 
             <div class="grid-2-col">
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <h3 class="body-header light-text">RUGS I MADE</h3>
 
@@ -205,25 +211,25 @@
 
             <div class="body-img-grid center">
 
-                <div>
+                <div class="hidden">
                     <h4 class="light-text center">Snorlax</h4>
 
                     <img class="phone-screen-big" src="/graphics/rug-table/snorlax-final.JPG" alt="design-1">
                 </div>
 
-                <div>
+                <div class="hidden">
                     <h4 class="light-text center">Spirited Away</h4>
 
                     <img class="phone-screen-big" src="/graphics/rug-table/coal.JPG" alt="design-1">
                 </div>
 
-                <div>
+                <div class="hidden">
                     <h4 class="light-text center">Starbucks</h4>
 
                     <img class="phone-screen-big" src="/graphics/rug-table/starbucks.JPG" alt="design-1">
                 </div>
 
-                <div>
+                <div class="hidden">
                     <h4 class="light-text center">Potted Plant</h4>
 
                     <img class="phone-screen-big" src="/graphics/rug-table/plant.JPG" alt="design-1">
@@ -235,7 +241,7 @@
 
                 <div></div>
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <div class="line-light"></div>
 
@@ -256,7 +262,7 @@
 
         <div class="light-section">
 
-            <div class="body-text">
+            <div class="body-text hidden">
 
                 <h3 class="body-header">DESIGN IN MIND</h3>
 
@@ -270,7 +276,7 @@
 
             </div>
 
-            <img class="body-img contain-small" src="/graphics/rug-table/faces-table.PNG" alt="features">
+            <img class="body-img contain-small hidden" src="/graphics/rug-table/faces-table.PNG" alt="features">
 
         </div>
 
@@ -278,7 +284,7 @@
 
             <div class="grid-2-col">
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <h3 class="body-header light-text">THE PROCESS</h3>
 
@@ -295,14 +301,14 @@
 
             </div>
 
-            <div class="grid-2-col gap contain-grid">
+            <div class="grid-2-col gap contain-grid libgen-delay">
 
                 <div>
-                    <img class="body-img" src="/graphics/rug-table/progress-1.JPG" alt="design-1">
+                    <img class="body-img hidden" src="/graphics/rug-table/progress-1.JPG" alt="design-1">
                 </div>
 
                 <div>
-                    <img class="body-img" src="/graphics/rug-table/progress-2.JPG" alt="design-1">
+                    <img class="body-img hidden" src="/graphics/rug-table/progress-2.JPG" alt="design-1">
                 </div>
 
             </div>
@@ -311,7 +317,7 @@
 
                 <div></div>
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <div class="line-light"></div>
 
@@ -335,28 +341,32 @@
 
             <div class="body-text">
 
-                <h3 class="body-header">EPOXY</h3>
+                <section class="hidden">
+                    <h3 class="body-header">EPOXY</h3>
+    
+                    <p class="body-para">
+                        Last, an epoxy coating was applied over the top to create a glossy and professional finish to the
+                        table. As my family left for vacation, we let the epoxy set for 7 days until we got back to ensure
+                        it cured properly.
+                    </p>
+    
+                    <div class="line"></div>
+                </section>
 
-                <p class="body-para">
-                    Last, an epoxy coating was applied over the top to create a glossy and professional finish to the
-                    table. As my family left for vacation, we let the epoxy set for 7 days until we got back to ensure
-                    it cured properly.
-                </p>
-
-                <div class="line"></div>
-
-                <img class="body-img contain-small" src="/graphics/rug-table/progress-3.JPG" alt="features">
+                <img class="body-img contain-small hidden" src="/graphics/rug-table/progress-3.JPG" alt="features">
 
                 <br><br>
 
-                <h3 class="body-header">REASSEMBLING</h3>
-
-                <p class="body-para">
-                    Once the epoxy was cured, the table was screwed back together. And it was done! This process is
-                    always something I enjoy. It allows me to try and learn new things when I am really just winging it.
-                </p>
-
-                <div class="line"></div>
+                <section class="hidden">
+                    <h3 class="body-header">REASSEMBLING</h3>
+    
+                    <p class="body-para">
+                        Once the epoxy was cured, the table was screwed back together. And it was done! This process is
+                        always something I enjoy. It allows me to try and learn new things when I am really just winging it.
+                    </p>
+    
+                    <div class="line"></div>
+                </section>
 
 
             </div>
@@ -367,7 +377,7 @@
 
             <div class="grid-2-col">
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <h3 class="body-header light-text">FINAL DESIGN</h3>
 
@@ -384,10 +394,10 @@
 
             </div>
 
-            <div class="grid-2-col gap contain-grid">
+            <div class="grid-2-col gap contain-grid libgen-delay">
 
                 <div>
-                    <video class="body-img contain-small" autoplay muted loop>
+                    <video class="body-img contain-small hidden" autoplay muted loop>
                         <source src="/graphics/rug-table/table-vid.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
@@ -395,7 +405,7 @@
 
                 <div>
 
-                    <img class="body-img" src="/graphics/rug-table/final-table.JPG" alt="features">
+                    <img class="body-img hidden" src="/graphics/rug-table/final-table.JPG" alt="features">
 
                 </div>
 
@@ -405,7 +415,7 @@
 
                 <div></div>
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <div class="line-light"></div>
 
@@ -426,7 +436,7 @@
 
         <div class="light-section">
 
-            <div class="text-center">
+            <div class="text-center hidden">
 
                 <div class="line"></div>
 

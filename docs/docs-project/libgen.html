@@ -12,7 +12,7 @@
 
 <body>
 
-    <script src="/js/main.js"></script>
+    <script defer src="/js/main.js"></script>
 
     <div id="scroll-indicator"></div>
 
@@ -38,7 +38,7 @@
 
         <div class="image-top libgen-img">
 
-            <div class="title">
+            <div class="title hidden">
 
                 <h1 class="title-header libgen-color-fill">Library Genesis</h1>
 
@@ -56,50 +56,56 @@
 
             <div class="body-text">
 
-                <div class="body-tags-container">
+                <section class="hidden">
+                    <div class="body-tags-container">
+    
+                        <h4 class="body-tags">Web Design</h4>
+    
+                        <h4 class="body-tags">Responsive Design</h4>
+    
+                        <h4 class="body-tags">Redesign</h4>
+    
+                    </div>
+    
+                    <p class="body-para">
+                        This project was for a user interface design class, the prompt being that I needed to redesign a
+                        website of choice. Simple enough. I had recently been to Library Genesis in order to get one of my
+                        textbooks and thought "Hey, this site kind of sucks!" So, I set out towards the redesign process.
+                    </p>
+    
+                    <div class="line"></div>
+                </section>
 
-                    <h4 class="body-tags">Web Design</h4>
+                <section class="hidden">
+                    <h3 class="body-header">TARGET AUDIENCE</h3>
+    
+                    <p class="body-para">
+                        The audience is targeted towards college students because they are often the ones searching for
+                        textbooks to avoid paying thousands of dollars on them over the years. The availability of
+                        scientific articles appeals to college students as well because it is a free alternative to paying
+                        for textbooks.
+                    </p>
+    
 
-                    <h4 class="body-tags">Responsive Design</h4>
+                    <p class="body-para">
+                        The target audience is reached as the site is well known amongst college students for its free
+                        resources. Students often discover the site through referral or social media posts, which lines up
+                        with the college student demographic as 70% are shown to be on Snapchat or Instagram and social
+                        interaction in college increases significantly increasing the odds that someone will get a referral.
+                    </p>
 
-                    <h4 class="body-tags">Redesign</h4>
+                    <div class="line"></div>
 
-                </div>
+                </section>
 
-                <p class="body-para">
-                    This project was for a user interface design class, the prompt being that I needed to redesign a
-                    website of choice. Simple enough. I had recently been to Library Genesis in order to get one of my
-                    textbooks and thought "Hey, this site kind of sucks!" So, I set out towards the redesign process.
-                </p>
-
-                <div class="line"></div>
-
-                <h3 class="body-header">TARGET AUDIENCE</h3>
-
-                <p class="body-para">
-                    The audience is targeted towards college students because they are often the ones searching for
-                    textbooks to avoid paying thousands of dollars on them over the years. The availability of
-                    scientific articles appeals to college students as well because it is a free alternative to paying
-                    for textbooks.
-                </p>
-
-                <div class="line"></div>
-
-                <p class="body-para">
-                    The target audience is reached as the site is well known amongst college students for its free
-                    resources. Students often discover the site through referral or social media posts, which lines up
-                    with the college student demographic as 70% are shown to be on Snapchat or Instagram and social
-                    interaction in college increases significantly increasing the odds that someone will get a referral.
-                </p>
-
-                <div class="line"></div>
-
-                <h3 class="body-header">GOALS</h3>
-
-                <p class="body-para">
-                    My immediate goals for the site are to clean up all of the excess information on the home page and
-                    in the search results while also providing a simple color palette/branding guide.
-                </p>
+                <section class="hidden">
+                    <h3 class="body-header">GOALS</h3>
+    
+                    <p class="body-para">
+                        My immediate goals for the site are to clean up all of the excess information on the home page and
+                        in the search results while also providing a simple color palette/branding guide.
+                    </p>
+                </section>
 
             </div>
 
@@ -109,7 +115,7 @@
 
             <div class="grid-2-col">
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <h3 class="body-header light-text">CARD SORT</h3>
 
@@ -126,13 +132,13 @@
 
             </div>
 
-            <img class="body-img shadow" src="/graphics/libgen/libgen-card-sort-results.gif" alt="card-sort">
+            <img class="body-img shadow hidden" src="/graphics/libgen/libgen-card-sort-results.gif" alt="card-sort">
 
             <div class="grid-2-col">
 
                 <div></div>
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <div class="line-light"></div>
 
@@ -152,7 +158,7 @@
 
         <div class="light-section">
 
-            <div class="body-text">
+            <div class="body-text hidden">
 
                 <h3 class="body-header">WIREFRAMES</h3>
 
@@ -167,11 +173,11 @@
 
             </div>
 
-            <img class="body-img shadow" src="/graphics/libgen/libgen-Wireframe-home.gif" alt="home-wireframe">
+            <img class="body-img shadow hidden" src="/graphics/libgen/libgen-Wireframe-home.gif" alt="home-wireframe">
 
-            <div class="line"></div>
+            <div class="line hidden"></div>
 
-            <div class="body-text">
+            <div class="body-text hidden">
 
                 <p class="body-para">
                     The search results page was redesigned to have a more modern and blocky look, as the original site
@@ -183,7 +189,7 @@
 
             </div>
 
-            <img class="body-img shadow" src="/graphics/libgen/libgen-Wireframe-search.gif" alt="search-wireframe">
+            <img class="body-img shadow hidden" src="/graphics/libgen/libgen-Wireframe-search.gif" alt="search-wireframe">
 
         </div>
 
@@ -191,7 +197,7 @@
 
             <div class="grid-2-col">
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <h3 class="body-header light-text">STYLES</h3>
 
@@ -207,11 +213,11 @@
 
             </div>
 
-            <div class="grid-2-col gap">
+            <div class="grid-2-col gap libgen-delay">
 
-                <img class="body-img shadow" src="/graphics/libgen/libgen-fonts.gif" alt="fonts">
+                <img class="body-img shadow hidden" src="/graphics/libgen/libgen-fonts.gif" alt="fonts">
 
-                <img class="body-img shadow" src="/graphics/libgen/libgen-colors.gif" alt="colors">
+                <img class="body-img shadow hidden" src="/graphics/libgen/libgen-colors.gif" alt="colors">
 
             </div>
 
@@ -219,7 +225,7 @@
 
                 <div></div>
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <div class="line-light"></div>
 
@@ -239,7 +245,7 @@
 
         <div class="light-section">
 
-            <div class="body-text">
+            <div class="body-text hidden">
 
                 <h3 class="body-header">THE BEFORE</h3>
 
@@ -252,11 +258,11 @@
 
             </div>
 
-            <img class="body-img shadow" src="/graphics/libgen/libgen-mockup-before.gif" alt="home-wireframe">
+            <img class="body-img shadow hidden" src="/graphics/libgen/libgen-mockup-before.gif" alt="home-wireframe">
 
-            <div class="line"></div>
+            <div class="line hidden"></div>
 
-            <div class="body-text">
+            <div class="body-text hidden">
 
                 <h3 class="body-header">THE AFTER</h3>
 
@@ -268,7 +274,7 @@
 
             </div>
 
-            <img class="body-img shadow" src="/graphics/libgen/libgen-mockup-final.gif" alt="search-wireframe">
+            <img class="body-img shadow hidden" src="/graphics/libgen/libgen-mockup-final.gif" alt="search-wireframe">
 
         </div>
 
@@ -276,7 +282,7 @@
 
             <div class="grid-2-col">
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <h3 class="body-header light-text">FULL PAGES</h3>
 
@@ -291,11 +297,11 @@
 
             </div>
 
-            <div class="grid-2-col gap">
+            <div class="grid-2-col gap libgen-delay">
 
-                <img class="body-img shadow" src="/graphics/libgen/libgen-home.gif" alt="home-page">
+                <img class="body-img shadow hidden" src="/graphics/libgen/libgen-home.gif" alt="home-page">
 
-                <img class="body-img shadow" src="/graphics/libgen/libgen-search.gif" alt="search-page">
+                <img class="body-img shadow hidden" src="/graphics/libgen/libgen-search.gif" alt="search-page">
 
             </div>
 
@@ -303,7 +309,7 @@
 
                 <div></div>
 
-                <div class="body-text">
+                <div class="body-tex hidden">
 
                     <div class="line-light"></div>
 
@@ -323,7 +329,7 @@
 
         <div class="light-section">
 
-            <div class="text-center">
+            <div class="text-center hidden">
 
                 <div class="line"></div>
 

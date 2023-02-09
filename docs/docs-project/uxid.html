@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <script src="/js/main.js"></script>
+    <script defer src="/js/main.js"></script>
 
     <div id="scroll-indicator"></div>
 
@@ -38,7 +38,7 @@
 
         <div class="image-top uxid-img">
 
-            <div class="title">
+            <div class="title hidden">
 
                 <h1 class="title-header shrink uxid-color-fill">Drexel HW System</h1>
 
@@ -54,37 +54,49 @@
 
             <div class="body-text">
 
-                <div class="body-tags-container">
+                <section class="hidden">
 
-                    <h4 class="body-tags">UX/UI</h4>
+                    <div class="body-tags-container">
 
-                    <h4 class="body-tags">Group Work</h4>
+                        <h4 class="body-tags">UX/UI</h4>
 
-                    <h4 class="body-tags">Web Design</h4>
+                        <h4 class="body-tags">Group Work</h4>
 
-                    <h4 class="body-tags">Web Dev</h4>
+                        <h4 class="body-tags">Web Design</h4>
 
-                </div>
+                        <h4 class="body-tags">Web Dev</h4>
 
-                <p class="body-para">
-                    The Drexel Homework System redesign was a 2022 summer project that a professor invited me to work on. It took place over the course of a few months with a small and fast-paced team outside of our co-ops. The backend was done by professors, but 3 other students and I were in charge of building out the designs and the React components. 
-                </p>
+                    </div>
 
-                <div class="line"></div>
+                    <p class="body-para">
+                        The Drexel Homework System redesign was a 2022 summer project that a professor invited me to work on. It took place over the course of a few months with a small and fast-paced team outside of our co-ops. The backend was done by professors, but 3 other students and I were in charge of building out the designs and the React components. 
+                    </p>
 
-                <h3 class="body-header">USER PERSONA</h3>
+                    <div class="line"></div>
 
-                <p class="body-para">
-                    Our target audience was Drexel students, which is great because I am my own target audience! Doesn't happen too often, but it allowed me to bring up my own pain points with the system. One problem was that students had problems with the clarity of some of the questions in the past, and this came up in our meetings. To be proactive about this, we decided to implement a feedback system to catch questions that caused problems for users.
-                </p>
+                </section>
 
-                <div class="line"></div>
+                <section class="hidden">
+                
+                    <h3 class="body-header">USER PERSONA</h3>
+
+                    <p class="body-para">
+                        Our target audience was Drexel students, which is great because I am my own target audience! Doesn't happen too often, but it allowed me to bring up my own pain points with the system. One problem was that students had problems with the clarity of some of the questions in the past, and this came up in our meetings. To be proactive about this, we decided to implement a feedback system to catch questions that caused problems for users.
+                    </p>
+
+                    <div class="line"></div>
+
+                </section>
+
+                <section class="hidden">
 
                 <h3 class="body-header">USER TASKS</h3>
 
                 <p class="body-para">
                     The user of the homework system would have to log in, using their student ID, then select the class and assignment they would like to work on. Students would then attempt a problem and check if their answer was correct. If it was correct, they would continue down the page, and if it was incorrect they would get a hint and try again. At the end of the assignment, the user would press submit and get a code to turn in elsewhere.
                 </p>
+
+                </section>                
 
             </div>
 
@@ -94,7 +106,7 @@
 
             <div class="grid-2-col">
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <h3 class="body-header light-text">BRAINSTORMING</h3>
 
@@ -110,25 +122,25 @@
 
             <div class="body-img-grid">
 
-                <div>
+                <div class="hidden">
                     <h4 class="light-text center">My Original Design</h4>
 
                     <img class="phone-screen" src="/graphics/uxid/Artboard 1.jpg" alt="design-1">
                 </div>
 
-                <div>
+                <div class="hidden">
                     <h4 class="light-text center">Durando's Design</h4>
 
                     <img class="phone-screen" src="/graphics/uxid/Artboard 2.jpg" alt="design-2">
                 </div>
 
-                <div>
+                <div class="hidden">
                     <h4 class="light-text center">Christina's Design</h4>
 
                     <img class="phone-screen" src="/graphics/uxid/Artboard 3.jpg" alt="design-3">
                 </div>
 
-                <div>
+                <div class="hidden">
                     <h4 class="light-text center">Alexis's Design</h4>
 
                     <img class="phone-screen" src="/graphics/uxid/Artboard 4.jpg" alt="design-4">
@@ -140,7 +152,7 @@
 
                 <div></div>
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <div class="line-light"></div>
 
@@ -160,13 +172,19 @@
 
             <div class="body-text">
 
-                <h3 class="body-header">CONCATENATING IDEAS</h3>
+                <section class="hidden">
 
-                <p class="body-para">
-                    With many different layouts, ideas, and aesthetics, we all had to argue our reasonings and agree on a set brand identity. We pulled colors, fonts,  layouts, and interactions from different members of the team to build a cohesive experience.
-                </p>
+                    <h3 class="body-header">CONCATENATING IDEAS</h3>
 
-                <div class="line"></div>
+                    <p class="body-para">
+                        With many different layouts, ideas, and aesthetics, we all had to argue our reasonings and agree on a set brand identity. We pulled colors, fonts,  layouts, and interactions from different members of the team to build a cohesive experience.
+                    </p>
+
+                    <div class="line"></div>
+
+                </section>
+
+                <section class="hidden">
 
                 <h3 class="body-header">BUILDING COMPONENTS</h3>
 
@@ -181,9 +199,11 @@
 
                 <div class="line"></div>
 
+                </section>
+
             </div>
 
-            <img class="body-img" src="/graphics/uxid/components.png" alt="components">
+            <img class="body-img hidden" src="/graphics/uxid/components.png" alt="components">
 
         </div>
 
@@ -191,7 +211,7 @@
 
             <div class="grid-2-col">
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <h3 class="body-header light-text">LEARNING REACT</h3>
 
@@ -205,7 +225,7 @@
 
             </div>
 
-            <video class="elevate-video" autoplay muted loop>
+            <video class="elevate-video hidden" autoplay muted loop>
                 <source src="/graphics/uxid/uxid-final-vid.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
@@ -214,7 +234,7 @@
 
                 <div></div>
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <div class="line-light"></div>
 
@@ -237,7 +257,7 @@
 
         <div class="light-section">
 
-            <div class="text-center">
+            <div class="text-center hidden">
 
                 <div class="line"></div>
 

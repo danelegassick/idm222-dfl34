@@ -17,6 +17,7 @@
 	height: 4px;
 	width: 0%;
 	position: fixed;
+    z-index: 999;
 	top: 0;
 	transition: all 0.2s linear;
 }
@@ -35,6 +36,7 @@
     --purple-dark: #6623CB;
     --purple-light: #B391E6;
     --red: #e30014;
+    --wok: #e34983;
     --yellow: #fdc52f;
     --barhop-color: #121212;
     --shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
@@ -439,6 +441,30 @@ h4 {
     width: fit-content;
 }
 
+.btn-wok:hover {
+    background: var(--wok);
+    color: var(--light);
+}
+
+.btn-wok {
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 4px;
+    border: 2px solid var(--wok);
+    color: var(--wok);
+    display: inline-block;
+    overflow: hidden;
+    padding: 0.5rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 0.3s linear, color 0.3s linear;
+    vertical-align: top;
+    width: fit-content;
+}
+
 .btn-white:hover {
     background: var(--light);
     color: var(--dk-blue);
@@ -728,6 +754,29 @@ h4 {
     color: var(--barhop-color);
 }
 
+/* Wok Works STYLES */
+
+.wok-img {
+    background-image: url(/graphics/wok-intro.jpg);
+}
+
+.wok-color-fill {
+    -webkit-text-fill-color: var(--wok);
+    -webkit-text-stroke: 2px var(--light);
+}
+
+.wok-bk {
+    background-color: var(--wok);
+}
+
+.wok-next:hover {
+    border-color: var(--wok);
+}
+  
+.wok-next:hover::after {
+    color: var(--wok);
+}
+
 
 
 .light-text {
@@ -790,6 +839,11 @@ h4 {
     .uxid-img {
         background-image: none;
         background-color: var(--dk-blue);
+    }
+
+    .wok-img {
+        background-image: none;
+        background-color: var(--wok);
     }
 
     .barhop-img {
@@ -1255,4 +1309,86 @@ h4 {
     box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.2);
     color: white;
     outline: none;
+}
+
+
+/* FADE IN ANIMATION */
+
+.hidden {
+    opacity: 0;
+    filter: blur(3px);
+    transform: translateX(-15%);
+    transition: all 1.5s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.delay-1 {
+    transition-delay: 0.25s;
+}
+
+.delay-2 {
+    transition-delay: .5s;
+}
+
+.barhop-imgs div:nth-child(2) {
+    transition-delay: 0.5s;
+}
+
+.libgen-delay img:nth-child(2) {
+    transition-delay: 0.5s;
+}
+
+.body-img-grid div:nth-child(2) {
+    transition-delay: 0.5s;
+}
+
+.body-img-grid div:nth-child(3) {
+    transition-delay: 1s;
+}
+
+.body-img-grid div:nth-child(4) {
+    transition-delay: 1.5s;
+}
+
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+
+.fit-content {
+    width: fit-content;
+    display: inline-block;
+}
+
+.rounded {
+    border-radius: 100%;
+}
+
+.wok-img-small {
+    max-width: 150px;
+}
+
+.grid-2-col-auto {
+    display: grid;
+    grid-template-columns: auto auto ;
+    gap: 1rem;
+    margin: 2rem 0 2rem;
+} 
+
+.grid-2-col-auto div {
+    display: grid;
+    align-content: center;
+    /* justify-items: center; */
+} 
+
+.width-100 {
+    width: 100%;
+    border-radius: 5px;
 }

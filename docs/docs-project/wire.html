@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <script src="/js/main.js"></script>
+    <script defer src="/js/main.js"></script>
 
     <div id="scroll-indicator"></div>
 
@@ -37,7 +37,7 @@
 
         <div class="image-top wire-img">
 
-            <div class="title">
+            <div class="title hidden">
 
                 <h1 class="title-header wire-color-fill">Wire</h1>
 
@@ -55,40 +55,50 @@
 
             <div class="body-text">
 
-                <div class="body-tags-container">
+                <section class="hidden">
 
-                    <h4 class="body-tags">Web Design</h4>
+                    <div class="body-tags-container">
 
-                    <h4 class="body-tags">Responsive Design</h4>
+                        <h4 class="body-tags">Web Design</h4>
 
-                    <h4 class="body-tags">Redesign</h4>
+                        <h4 class="body-tags">Responsive Design</h4>
 
-                </div>
+                        <h4 class="body-tags">Redesign</h4>
 
-                <p class="body-para">
-                    This project was for a User Interface Design II class that required users to redesign a news style
-                    sight with formats for mobile, tablet, and desktop. This allowed me to practice responsive design
-                    techniques within programs like Figma.
-                </p>
+                    </div>
 
-                <div class="line"></div>
+                    <p class="body-para">
+                        This project was for a User Interface Design II class that required users to redesign a news style
+                        sight with formats for mobile, tablet, and desktop. This allowed me to practice responsive design
+                        techniques within programs like Figma.
+                    </p>
 
-                <h3 class="body-header">TARGET AUDIENCE</h3>
+                    <div class="line"></div>
 
-                <p class="body-para">
-                    The target user is defined as being someone between the ages of 20-30, living in urban areas,
-                    getting a degree of higher education or recently graduated.
-                </p>
+                </section>
+
+                <section class="hidden">
+                    <h3 class="body-header">TARGET AUDIENCE</h3>
+    
+                    <p class="body-para">
+                        The target user is defined as being someone between the ages of 20-30, living in urban areas,
+                        getting a degree of higher education or recently graduated.
+                    </p>
+
+                    <div class="line"></div>
+
+                </section>
 
             </div>
 
-            <div class="line"></div>
 
-            <img class="body-img shadow" src="/graphics/wire/userpersona-edited.gif" alt="user-persona">
+            <section class="hidden">
+                <img class="body-img shadow" src="/graphics/wire/userpersona-edited.gif" alt="user-persona">
+    
+                <div class="line"></div>
+            </section>
 
-            <div class="line"></div>
-
-            <div class="body-text">
+            <div class="body-text hidden">
 
                 <p class="body-para">
                     The target user has an interest in obscure pieces of art or music that intellectually stimulates
@@ -104,7 +114,7 @@
 
             <div class="grid-2-col">
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <h3 class="body-header light-text">RESEARCH SKETCHES</h3>
 
@@ -119,19 +129,19 @@
 
             </div>
 
-            <div>
+            <div class="hidden">
                 <img class="body-img shadow" src="/graphics/wire/sketches1.gif" alt="finish">
             </div>
 
-            <div class="line-light"></div>
+            <div class="line-light hidden"></div>
 
-            <div>
+            <div class="hidden">
                 <img class="body-img shadow" src="/graphics/wire/sketches2.gif" alt="results">
             </div>
 
-            <div class="line-light"></div>
+            <div class="line-light hidden"></div>
 
-            <div>
+            <div class="hidden">
                 <img class="body-img shadow" src="/graphics/wire/sketches3.gif" alt="real-build">
             </div>
 
@@ -139,7 +149,7 @@
 
                 <div></div>
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <div class="line-light"></div>
 
@@ -157,7 +167,7 @@
 
         <div class="light-section">
 
-            <div class="body-text">
+            <div class="body-text hidden">
 
                 <h3 class="body-header">STYLE GUIDE</h3>
 
@@ -172,11 +182,11 @@
 
             </div>
 
-            <img class="body-img shadow" src="/graphics/wire/colors.gif" alt="colors">
+            <img class="body-img shadow hidden" src="/graphics/wire/colors.gif" alt="colors">
 
-            <div class="line"></div>
+            <div class="line hidden"></div>
 
-            <div class="body-text">
+            <div class="body-text hidden">
 
                 <h3 class="body-header">FONTS</h3>
 
@@ -185,15 +195,15 @@
                     The most readable font combination was style 2 and the font family had great cohesion.
                 </p>
 
+                <div class="line"></div>
+
             </div>
 
-            <div class="line"></div>
+            <img class="body-img shadow hidden" src="/graphics/wire/fonts.gif" alt="fonts">
 
-            <img class="body-img shadow" src="/graphics/wire/fonts.gif" alt="fonts">
+            <div class="line hidden"></div>
 
-            <div class="line"></div>
-
-            <div class="body-text">
+            <div class="body-text hidden">
 
                 <h3 class="body-header">ICONS</h3>
 
@@ -202,13 +212,13 @@
                     the drop shadow providing more clarity on the site.
                 </p>
 
+                <div class="line"></div>
+
             </div>
 
-            <div class="line"></div>
+            <img class="body-img shadow hidden" src="/graphics/wire/icons.gif" alt="ix-flow">
 
-            <img class="body-img shadow" src="/graphics/wire/icons.gif" alt="ix-flow">
-
-            <div class="line"></div>
+            <div class="line hidden"></div>
 
 
         </div>
@@ -217,7 +227,7 @@
 
             <div class="grid-2-col">
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <h3 class="body-header light-text">FINAL PRODUCT</h3>
 
@@ -238,7 +248,7 @@
 
             </div>
 
-            <video class="elevate-video" autoplay muted loop>
+            <video class="elevate-video hidden" autoplay muted loop>
 
                 <source src="/graphics/wire/wire-vid-desktop.mp4" type="video/mp4">
 
@@ -250,7 +260,7 @@
 
                 <div></div>
 
-                <div class="body-text">
+                <div class="body-text hidden">
 
                     <div class="line-light"></div>
 
@@ -269,7 +279,7 @@
 
         <div class="light-section">
 
-            <div class="text-center">
+            <div class="text-center hidden">
 
                 <div class="line"></div>
 
